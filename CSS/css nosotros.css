@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body{margin: 0px; 
+
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+header {padding: auto;
+background: #426a8d;
+text-align: center;
+margin-bottom: 0px;
+color: white;
+}
+
+
+.logo{height: 200px;}
+
+nav {background: rgba(233,145,75,1.00);
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:  rgba(233,145,75,1.00);
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main {margin: 0px; padding: 10px}
+
+
+
+.puesto{
+	width: 540px;
+	height: 540px;	
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texto{
+	margin-right: 50px;
+	font-family: Helvetica, "sans-serif"; color:#426a8d;
+}
+
+H2{
+	font-family: Helvetica, "sans-serif"; color:#426a8d;
+}
+
+
+footer {
+	padding: auto ;
+	text-align: center;
+	color: white;
+background: #E29150; 
+	height: auto
+
+}
+h4 {margin: 0px; padding: 20px}

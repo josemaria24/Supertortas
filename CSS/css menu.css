@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0px; 
+
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+header {padding: auto;
+background: #426a8d;
+text-align: center;
+margin-bottom: 0px;
+color: white;
+}
+
+.logo{height: 200px;}
+
+nav {background: rgba(233,145,75,1.00);
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:  rgba(233,145,75,1.00);
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main h2 {font-family: Helvetica, "sans-serif"; color:#426a8d;
+margin-left: 20px; padding: 10px;
+}
+.fotouno{
+	width: 350px;
+	height: 300px;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50)
+}
+.galeriauno {display: flex;padding: 10px; justify-content: center}
+.galeriauno figure {
+	position: relative;;
+	}
+.galeriauno figure img {
+	transition: all 500ms ease-out; }
+.galeriauno figure .capa
+{
+	position: absolute;
+	top: 0px;
+	width: 350px;
+	height: 300px;
+	background-color: rgba(255,222,184,0.80);
+	margin-left: 0px;
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+	font-family: Helvetica;
+	color: #FF0004;
+	font-size: 20pt;
+}
+
+.galeriauno figure:hover > .capa {opacity: 1;
+visibility: visible;
+}
+.galeriauno figure:hover > 
+main {
+	margin-bottom: 100px; margin-top: 100px;
+}
+.capa h3 {
+	margin-top: 130px
+}
+footer {
+	padding: auto ;
+	text-align: center;
+	color: white;
+background: #E29150; 
+	height: auto
+
+}
+h4 {margin: 0px; padding: 20px}
+.link {
+	color: #FF0004;
+	text-decoration: none;	
+}
+a {text-decoration: none}

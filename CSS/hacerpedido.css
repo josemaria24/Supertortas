@@ -1,0 +1,505 @@
+@charset "utf-8";
+body{margin: 0px; 
+
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+header {padding: auto;
+background: #426a8d;
+text-align: center;
+margin-bottom: 0px;
+color: white;
+}
+
+.logo{height: 200px;}
+
+nav {background: rgba(233,145,75,1.00);
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:  rgba(233,145,75,1.00);
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main {margin: 0px; padding: 10px}
+
+
+
+
+main h2 {font-family: Helvetica, "sans-serif"; color:#426a8d;
+margin-left: 20px; padding: 10px;
+}
+
+h3 {margin: 0px; padding: 20px}
+
+main h3 {font-family: Helvetica, "sans-serif"; color:#426a8d;
+margin-left: 20px; padding: 10px;
+}
+
+img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+	
+	}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #11294d;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor2>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor2>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor3>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor3>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor4>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor4>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor5{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor5>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor5>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor6>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor6>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor7{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor7>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor7>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+.contenedor8{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor8>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #426a8d;
+    border-radius: 20px;
+}
+.contenedor8>div:hover{
+    background-color: #11294d;
+}
+
+.informacion2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion2>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion2 .precio2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion2 .precio2 span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion2 button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion2 button:hover{
+    background-color: #2D4263;
+}
+
+
+footer {
+	padding: auto ;
+	text-align: center;
+	color: white;
+background: #E29150; 
+	height: auto
+
+}
+h4 {margin: 0px; padding: 20px}
+
+

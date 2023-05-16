@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0px; 
+
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+header {padding: auto;
+background: #426a8d;
+text-align: center;
+margin-bottom: 0px;
+color: white;
+}
+
+ .logo{height: 200px; width: 200px}
+
+nav {background: rgba(233,145,75,1.00);
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:  rgba(233,145,75,1.00);
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main {margin: 0px; padding: 10px}
+
+
+.slider{
+
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+.slider ul{
+
+	display: flex;
+	animation: cambio 20s infinite alternate linear;
+	width: 400%;
+}
+
+.slider li{
+width: 100%;
+list-style: none;
+}
+
+.slider img{
+	width: 100%;
+	height: 100%;
+
+}
+
+@keyframes cambio{
+
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+
+footer {
+	padding: auto ;
+	text-align: center;
+	color: white;
+background: #E29150; 
+	height: auto
+
+}
+h4 {margin: 0px; padding: 20px}
+
+img{
+	
+	width: 100%;
+	height: 100%;
+	
+}
+.redes{
+	height: 100px;
+	width: auto
+	
+}
